@@ -1,0 +1,101 @@
+.background{
+    width: 1000px;
+    height: 640px;
+    border-radius: 4px;
+    background-color: #252529;
+    position:absolute;
+}
+
+.input{
+    height: 23px;
+    width: 880px;
+    border:none;
+    border-color: #19191c;
+    background-color:transparent;
+    font-family: ClashDisplay-Medium;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #dedeef;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.label{
+    font-family: ClashDisplay-Regular;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #757590;
+    margin: 8px 55px 0px;
+
+}
+
+.text-input-box{
+    width: 900px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #19191c;
+    position:relative;
+
+    margin: 0px 50px 0px;
+}
+
+.send{
+    width: 400px;
+    height: 72px;
+    border-radius: 4px;
+    background-color: #3636f7;
+    position: absolute;
+    top:540px;
+    left:300px;
+    font-family: ClashDisplay-Regular;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #ffffff;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.send:hover{
+    filter: brightness(120%);
+}
+
+.send:active{
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+}
+
+*:focus {
+    outline: none;
+  }
+
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: local('ClashDisplay-Medium'), url(../fonts/ClashDisplay-Medium.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: local('ClashDisplay-Regular'), url(../fonts/ClashDisplay-Regular.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
