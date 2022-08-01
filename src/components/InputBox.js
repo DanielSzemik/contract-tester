@@ -8,8 +8,6 @@ const InputBox = () => {
         const params = {
             nonce: document.getElementById("in1").value,
             gasPrice: document.getElementById("in2").value,
-            gas: document.getElementById("in3").value,
-            to: document.getElementById("in4").value,
             from: document.getElementById("in5").value,
             value: document.getElementById("in6").value,
             data: document.getElementById("in7").value,
@@ -33,14 +31,6 @@ const InputBox = () => {
             <div className="label">gas price</div>
             <div className="text-input-box">
                 <input type="text" autocomplete="off" className="input" id="in2" name="in2" defaultValue="0x09184e72a000"></input>
-            </div>
-            <div className="label">gas</div>
-            <div className="text-input-box">
-                <input type="text" autocomplete="off" className="input" id="in3" name="in3" defaultValue="0x710"></input>
-            </div>
-            <div className="label">to</div>
-            <div className="text-input-box">
-                <input type="text" autocomplete="off" className="input" id="in4" name="in4" defaultValue="0x0000000000000000000000000000000000000000"></input>
             </div>
             <div className="label">from</div>
             <div className="text-input-box">
